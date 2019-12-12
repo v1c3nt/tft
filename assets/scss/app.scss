@@ -1,0 +1,417 @@
+@import "~bootstrap/scss/bootstrap";
+
+.d-in-bloc {
+  display: inline-block;
+  & > svg {
+    position: relative;
+    top: -10px;
+  }
+}
+
+.item {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.build {
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  width: 57px;
+  height: 57px;
+  border: 2px solid grey;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.game-wrapper {
+  //display: flex;
+  //justify-content: center;
+  width: 580px;
+  margin: auto;
+}
+
+.items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 580px;
+  margin: auto;
+  & > div {
+    display: flex;
+    width: 57px;
+    height: 57px;
+    flex-direction: column;
+    margin: 0.2rem;
+    & > span {
+      //position: relative;
+      top: -30px;
+      left: -30px;
+      color: #fff;
+      font-weight: bold;
+      font-size: larger;
+    }
+  }
+}
+
+#item1 {
+  position: relative;
+  top: -3px;
+  left: -2px;
+}
+#item2 {
+  position: relative;
+  top: -3px;
+  left: -48px;
+}
+#item3 {
+  position: relative;
+  top: -3px;
+  left: -93px;
+}
+#item4 {
+  position: relative;
+  top: -3px;
+  left: -138px;
+}
+#item5 {
+  position: relative;
+  top: -3px;
+  left: -183px;
+}
+#item6 {
+  position: relative;
+  top: -3px;
+  left: -228px;
+}
+#item7 {
+  position: relative;
+  top: -3px;
+  left: -273px;
+}
+#item8 {
+  position: relative;
+  top: -3px;
+  left: -318px;
+}
+#item9 {
+  position: relative;
+  top: -3px;
+  left: -363px;
+}
+
+.build17,
+.build71 {
+  position: relative;
+  top: -6px;
+  left: -6px;
+}
+
+.build27,
+.build72 {
+  position: relative;
+  top: -6px;
+  left: -65px;
+}
+
+.build73,
+.build37 {
+  position: relative;
+  top: -6px;
+  left: -123px;
+}
+
+.build47,
+.build74 {
+  position: relative;
+  top: -6px;
+  left: -182px;
+}
+
+.build57,
+.build75 {
+  position: relative;
+  top: -6px;
+  left: -240px;
+}
+
+.build67,
+.build76 {
+  position: relative;
+  top: -6px;
+  left: -300px;
+}
+
+.build77 {
+  position: relative;
+  top: -6px;
+  left: -358px;
+}
+
+.build78,
+.build87 {
+  position: relative;
+  top: -6px;
+  left: -416px;
+}
+
+.build59,
+.build95 {
+  position: relative;
+  top: -6px;
+  left: -475px;
+}
+
+.build18,
+.build81 {
+  position: relative;
+  top: -6px;
+  left: -533px;
+}
+
+.build28,
+.build82 {
+  position: relative;
+  top: -6px;
+  left: -593px;
+}
+
+.build38,
+.build83 {
+  position: relative;
+  top: -6px;
+  left: -653px;
+}
+
+.build48,
+.build84 {
+  position: relative;
+  top: -6px;
+  left: -712px;
+}
+
+.build49,
+.build94 {
+  position: relative;
+  top: -6px;
+  left: -1544px;
+}
+
+.build58,
+.build85 {
+  position: relative;
+  top: -6px;
+  left: -771px;
+}
+
+.build68,
+.build86 {
+  position: relative;
+  top: -6px;
+  left: -832px;
+}
+
+.build88 {
+  position: relative;
+  top: -6px;
+  left: -890px;
+}
+
+.build98,
+.build89 {
+  position: relative;
+  top: -6px;
+  left: -950px;
+}
+
+.build16,
+.build61 {
+  position: relative;
+  top: -7px;
+  left: -1009px;
+}
+
+.build26,
+.build62 {
+  position: relative;
+  top: -7px;
+  left: -1068px;
+}
+
+.build36,
+.build63 {
+  position: relative;
+  top: -8px;
+  left: -1127px;
+}
+
+.build46,
+.build64 {
+  position: relative;
+  top: -8px;
+  left: -1187px;
+}
+
+.build56,
+.build65 {
+  position: relative;
+  top: -8px;
+  left: -1247px;
+}
+
+.build66 {
+  position: relative;
+  top: -8px;
+  left: -1306px;
+}
+
+.build96,
+.build69 {
+  position: relative;
+  top: -8px;
+  left: -1366px;
+}
+
+.build91,
+.build19 {
+  position: relative;
+  top: -8px;
+  left: -1425px;
+}
+
+.build92,
+.build29 {
+  position: relative;
+  top: -8px;
+  left: -1486px;
+}
+
+.build98,
+.build89 {
+  position: relative;
+  top: -8px;
+  left: -954px;
+}
+
+.build97,
+.build79 {
+  position: relative;
+  top: -8px;
+  left: -1604px;
+}
+
+.build99 {
+  position: relative;
+  top: -8px;
+  left: -1667px;
+}
+
+.build11 {
+  position: relative;
+  top: -8px;
+  left: -1726px;
+}
+
+.build12,
+.build21 {
+  position: relative;
+  top: -8px;
+  left: -1785px;
+}
+
+.build13,
+.build31 {
+  position: relative;
+  top: -8px;
+  left: -1843px;
+}
+
+.build14,
+.build41 {
+  position: relative;
+  top: -8px;
+  left: -1903px;
+}
+
+.build22 {
+  position: relative;
+  top: -8px;
+  left: -1961px;
+}
+
+.build23,
+.build32 {
+  position: relative;
+  top: -8px;
+  left: -2022px;
+}
+
+.build24,
+.build42 {
+  position: relative;
+  top: -8px;
+  left: -2081px;
+}
+
+.build33 {
+  position: relative;
+  top: -8px;
+  left: -2140px;
+}
+
+.build34,
+.build43 {
+  position: relative;
+  top: -8px;
+  left: -2198px;
+}
+
+.build45,
+.build54 {
+  position: relative;
+  top: -8px;
+  left: -2258px;
+}
+
+.build15,
+.build51 {
+  position: relative;
+  top: -8px;
+  left: -2318px;
+}
+
+.build39,
+.build93 {
+  position: relative;
+  top: -8px;
+  left: -2380px;
+}
+
+.build55 {
+  position: relative;
+  top: -8px;
+  left: -2441px;
+}
+
+.build25,
+.build52 {
+  position: relative;
+  top: -8px;
+  left: -2500px;
+}
+
+.build35,
+.build53 {
+  position: relative;
+  top: -7px;
+  left: -2559px;
+}
+
+.build44 {
+  position: relative;
+  top: -7px;
+  left: -2617px;
+}
