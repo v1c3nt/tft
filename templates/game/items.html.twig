@@ -1,4 +1,4 @@
-{% extends 'base.html.twig' %}
+{% extends 'base_game.html.twig' %}
 
 {% block title %}Hello GameController!{% endblock %}
 
@@ -8,14 +8,14 @@
         <div class="d-in-bloc"><i class="fas fa-plus fa-2x"></i></div>
         <div class="item" ><img src="{{ asset('images/simple.png') }}" id="item{{ item2 }}" alt=""></div>
         <div class="d-in-bloc"><i class="fas fa-equals fa-2x"></i></div>
-        <div class="build"><img src="{{ asset('images/build.png') }}" class="build{{ build }}" alt=""></div>
+        <div class="build d-none" id="answer" data-answer="{{ build }}" data-alt="{{ buildAlt }}"><img src="{{ asset('images/build.png') }}" class="build{{ build }}"  alt=""></div>
     </div>
 
     <hr>
-    <div class="items-wrapper">
+    <div id="items_wrapper">
 
         {% for item in items %}
-        <div class="build">
+        <div class="build choices"  data-build="{{ item }}">
             <div class=""><img src="{{ asset('images/build.png') }}" class="build{{ item }}" alt=""></div>
         </div>
         {% endfor %}
