@@ -1,5 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
 
+$arena0: url("../../public/images/arena/arena0.jpeg");
+$arena1: url("../../public/images/arena/arena1.jpeg");
+$arena2: url("../../public/images/arena/arena2.jpeg");
+
+body {
+  background-color: #141520;
+  background-image: url("../../public/images/arena/arena0.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .d-in-bloc {
   display: inline-block;
   & > svg {
