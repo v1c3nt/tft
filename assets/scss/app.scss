@@ -29,10 +29,19 @@
 }
 
 .game-wrapper {
-  //display: flex;
-  //justify-content: center;
   width: 580px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60px;
+}
+
+#answer_image {
+  display: none;
 }
 
 #items_wrapper {
@@ -57,47 +66,47 @@
   }
 }
 
-#item1 {
+.item1 {
   position: relative;
   top: -3px;
   left: -2px;
 }
-#item2 {
+.item2 {
   position: relative;
   top: -3px;
   left: -48px;
 }
-#item3 {
+.item3 {
   position: relative;
   top: -3px;
   left: -93px;
 }
-#item4 {
+.item4 {
   position: relative;
   top: -3px;
   left: -138px;
 }
-#item5 {
+.item5 {
   position: relative;
   top: -3px;
   left: -183px;
 }
-#item6 {
+.item6 {
   position: relative;
   top: -3px;
   left: -228px;
 }
-#item7 {
+.item7 {
   position: relative;
   top: -3px;
   left: -273px;
 }
-#item8 {
+.item8 {
   position: relative;
   top: -3px;
   left: -318px;
 }
-#item9 {
+.item9 {
   position: relative;
   top: -3px;
   left: -363px;
